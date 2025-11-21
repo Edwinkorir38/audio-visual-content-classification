@@ -1,0 +1,43 @@
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+*~
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+*.ipynb-checkpoint # Might be useful too
+
+# macOS specific
+.DS_Store
+
+# Microsoft Office temporary files
+~$*.*
+
+# Large files or files you generally don't want version-controlled
+*.pdf
+*.pptx
+*.mp4
+*.mov
+*.avi
+*.mp3
+*.wav
+*.zip
+*.tar.gz
+*.rar
+
+# Specific large data files (if not used by the model directly)
+data/*.xlsx
+data/*.csv
+
+# Model files (if very large, or if you prefer to upload them to cloud storage)
+# If your .pkl files are small (e.g., < 50MB), you can remove these lines to commit them.
+# Otherwise, keep them if you want to avoid versioning huge models.
+# *.pkl
